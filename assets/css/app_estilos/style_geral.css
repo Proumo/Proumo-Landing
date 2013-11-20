@@ -1,0 +1,180 @@
+/* Hotfix Bootstrap */
+
+/* Centralização do nav pills */
+.centered-pills { text-align:center; }
+.centered-pills ul.nav-pills { display:inline-block; }
+.centered-pills li { display:inline; }
+.centered-pills a { float:left; }
+* html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
+*+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */
+
+header .span12 {
+	text-align: center;
+}
+
+header .span12 h5 {
+	font-weight: normal;
+}
+
+body {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+/* Custom container */
+.container-narrow {
+	margin: 0 auto;
+	max-width: 700px;
+}
+.container-narrow > hr {
+	margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+	margin: 60px 0;
+	text-align: center;
+}
+.jumbotron h1 {
+	font-size: 72px;
+	line-height: 1;
+}
+
+/* Supporting marketing content */
+.marketing {
+	margin: 60px 0;
+}
+.marketing p + h4 {
+	margin-top: 28px;
+}
+.nav-tabs>li>a, .nav-pills>li>a {
+	padding-right: 6px;
+	padding-left: 6px;
+}
+.masthead h3 {
+	font-size: 17px;
+}
+.jumbotron img {
+	margin-bottom: 4%;
+}
+.muted, h4{
+	cursor: default;
+}
+#btns_sociais .row-fluid .btn{
+	margin-bottom: 2%;
+}
+/* /Hotfix */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
