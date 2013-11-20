@@ -5,3 +5,10 @@
 #btns_sociais .btn {
 	margin: 2% 0;
 }
+
+#nav.affix {
+    position: fixed;
+	background: white;
+	z-index: 9999999;
+	top: 0;
+}

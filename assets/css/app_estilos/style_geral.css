@@ -65,116 +65,29 @@ body {
 }
 /* /Hotfix */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.masthead {
+	border-bottom: 2px solid whitesmoke;
+}
+
+#marketing-produto {
+	padding-top: 55px;
+}
+
+.navbar-fixed-top {
+	position: fixed;
+	right: auto;
+	left: auto;
+}
+
+#nav {
+	background: white;
+}
+
+/* 1226 parar o span
+@media (max-width: 780px) {
+	.pull-right {
+		float: none;
+	}
+    h2 { font-size: 15px; }
+}
+*/
