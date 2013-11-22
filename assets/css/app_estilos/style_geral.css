@@ -41,9 +41,6 @@ body {
 }
 
 /* Supporting marketing content */
-.marketing {
-	margin: 60px 0;
-}
 .marketing p + h4 {
 	margin-top: 28px;
 }
@@ -63,6 +60,10 @@ body {
 #btns_sociais .row-fluid .btn{
 	margin-bottom: 2%;
 }
+.lead {
+	font-size: 34px;
+	margin: 3% 0;
+}
 /* /Hotfix */
 
 .masthead {
@@ -72,16 +73,30 @@ body {
 #marketing-produto {
 	padding-top: 55px;
 }
-
 .navbar-fixed-top {
 	position: fixed;
 	right: auto;
 	left: auto;
 }
-
 #nav {
 	background: white;
+	z-index: 99999999;
 }
+.marketing .row-fluid {
+	margin: 10% 0;
+}
+.marketing h1 {
+	text-align: center;
+	font-family: Cambria, Georgia, serif;
+}
+
+/* MARGIN 40% EM MOBILES 
+
+.marketing .row-fluid {
+margin: 40% 0;
+}
+
+*/
 
 /* 1226 parar o span
 @media (max-width: 780px) {

@@ -18,6 +18,21 @@ $('#btns_sociais .btn').click(function(){
 	else $(this).addClass('active');
 });
 
+$('#nav ul li a').click(function(){
+	$('#nav ul li').removeClass('active');
+	$(this).parent('li').addClass('active');
+});
+
 $('#conectar').click(function(){
 	
+});
+
+$('a').bind('click',function(event){
+	var $anchor = $(this);
+
+	$('html, body').stop().animate({
+		scrollTop: $($anchor.attr('href')).offset().top
+	}, 1000,'easeInOutExpo');
+
+	event.preventDefault();
 });
