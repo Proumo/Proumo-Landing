@@ -36,3 +36,15 @@ $('a').bind('click',function(event){
 
 	event.preventDefault();
 });
+
+$('a').click(function(event){
+	event.preventDefault();
+});
+
+
+$('.dropdown-menu li').click(function(){
+	var lingua_selecionada = $(this).children('a').html();
+	console.log('lingua_selecionada: ' + lingua_selecionada);
+
+	$('#btn_inter_content').html(lingua_selecionada+' <span class="caret"></span>');
+});
