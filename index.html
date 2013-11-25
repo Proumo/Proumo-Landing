@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app id='ng-app'>
   <head>
     <meta charset="utf-8">
     <title>Proumo EventsApp</title>
@@ -30,17 +30,17 @@
     <!-- /Angular -->
   </head>
 
-  <body>
+  <body ng-controller="app_controller">
 
     <div class="container-narrow">
 
-      <nav id="nav" class="navbar-fixed-top row-fluid">
+      <nav id="nav" class="navbar-fixed-top row-fluid" ng-controller="navController">
         <div class="masthead span7">
           <ul class="nav nav-pills pull-right">
-            <li class="active"><a href="#marketing-produto">Produto</a></li>
-            <li><a href="#marketing-participante">Participante</a></li>
-            <li><a href="#marketing-anunciante">Anunciante</a></li>
-            <li><a href="#marketing-api">API</a></li>
+            <li class="active"><a href="#marketing-produto"> {{ txt_produto }} </a></li>
+            <li><a href="#marketing-participante"> {{ txt_participante }} </a></li>
+            <li><a href="#marketing-anunciante"> {{ txt_anunciante }} </a></li>
+            <li><a href="#marketing-api"> {{ txt_api }} </a></li>
           </ul>
 
           <div id="btn_internacional" class="btn-group">

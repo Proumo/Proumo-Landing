@@ -18,9 +18,9 @@ $('#btns_sociais .btn').click(function(){
 	else $(this).addClass('active');
 });
 
-$('#nav > ul li a').click(function(){
-	$('#nav ul li').removeClass('active');
-	$(this).parent('li').addClass('active');
+$('#nav .nav li').click(function(){
+	$('#nav .nav li').removeClass('active');
+	$(this).addClass('active');
 });
 
 $('#conectar').click(function(){
@@ -37,7 +37,11 @@ $('a').bind('click',function(event){
 	event.preventDefault();
 });
 
-$('a').click(function(event){
+$( "a" ).click(function( event ) {
+	event.preventDefault();
+});
+
+$( "li" ).click(function( event ) {
 	event.preventDefault();
 });
 
