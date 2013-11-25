@@ -18,7 +18,7 @@ $('#btns_sociais .btn').click(function(){
 	else $(this).addClass('active');
 });
 
-$('#nav ul li a').click(function(){
+$('#nav > ul li a').click(function(){
 	$('#nav ul li').removeClass('active');
 	$(this).parent('li').addClass('active');
 });
@@ -44,7 +44,8 @@ $('a').click(function(event){
 
 $('.dropdown-menu li').click(function(){
 	var lingua_selecionada = $(this).children('a').html();
-	console.log('lingua_selecionada: ' + lingua_selecionada);
+	$('.dropdown-menu li').removeClass('active');
+	$(this).addClass('active');
 
 	$('#btn_inter_content').html(lingua_selecionada+' <span class="caret"></span>');
 });
