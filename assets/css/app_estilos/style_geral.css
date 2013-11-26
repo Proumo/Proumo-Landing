@@ -99,6 +99,10 @@ h3.muted {
 	font-size: 14px;
 }
 
+#marketing-anunciante p, #marketing-participante p, #marketing-api p {
+	text-align: justify;
+}
+
 /* MARGIN 40% EM MOBILES 
 
 .marketing .row-fluid {
