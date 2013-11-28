@@ -1,4 +1,44 @@
-#marketing-participante p {
-	min-height: 134px;
+.marketing p {
+	min-height: 135px;
 	max-height: 122px;
+}
+
+.lead_verde strong {
+	font-size: 16px;
+}
+
+.lead_verde_header {
+	color: green;
+}
+
+.lead_azul_claro_header {
+	color: #49afcd;
+}
+
+.lead_azul_escuro_header {
+	color: #08c;
+}
+
+.lead_verde strong, .lead_verde h2  {
+	color: green;
+}
+
+.lead_azul_claro strong, .lead_azul_claro h2  {
+	color: #49afcd;
+}
+
+.lead_azul_escuro strong, .lead_azul_escuro h2 {
+	color: #08c;
+}
+
+.lead_azul_claro ul {
+	margin-bottom: 2px;
+}
+
+.lead_azul_claro > strong {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
 }

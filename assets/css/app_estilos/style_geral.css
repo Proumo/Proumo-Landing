@@ -103,6 +103,11 @@ h3.muted {
 	text-align: justify;
 }
 
+.marketing ul {
+	min-height: 121px;
+	max-height: 122px;
+}
+
 /* MARGIN 40% EM MOBILES 
 
 .marketing .row-fluid {
