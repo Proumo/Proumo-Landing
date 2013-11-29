@@ -1,4 +1,4 @@
-// Variáveis que guardam os JSON de Locale para que faça cache do JSON
+// Vari?veis que guardam os JSON de Locale para que fa?a cache do JSON
 var json_pt_br;
 var json_en_us;
 var json_es_es;
@@ -18,8 +18,8 @@ function navController($scope, $http){
 function headerController($scope, $http){
 	//Lead header
     $scope.lead_p1 = 'Fique por dentro';
-    $scope.lead_p2 = 'do que está rolando e';
-    $scope.lead_p3 = 'novas formas de interação';
+    $scope.lead_p2 = 'do que est? rolando e';
+    $scope.lead_p3 = 'novas formas de intera??o';
     $scope.lead_p4 = 'em';
     $scope.lead_p5 = 'EVENTOS!';
 
@@ -44,18 +44,18 @@ function marketingController($scope, $http){
 
     // Descubra
     $scope.descubra_header = 'Descubra';
-    $scope.descubra_p1 = 'Agora ficou fácil saber o que está rolando perto de você e de seus amigos!';
-    $scope.descubra_p2 = 'Shows, festas, baladas, exposições... e muito mais!';
+    $scope.descubra_p1 = 'Agora ficou f?cil saber o que est? rolando perto de voc? e de seus amigos!';
+    $scope.descubra_p2 = 'Shows, festas, baladas, exposi??es... e muito mais!';
     
     // Participe
     $scope.participe_header = 'Participe';
-    $scope.participe_p1 = 'Conectado às redes sociais:';
-    $scope.participe_p2 = 'confirme presença';
-    $scope.participe_p3 = 'saiba quem vai estar lá';
-    $scope.participe_p4 = 'promoções';
+    $scope.participe_p1 = 'Conectado ?s redes sociais:';
+    $scope.participe_p2 = 'confirme presen?a';
+    $scope.participe_p3 = 'saiba quem vai estar l?';
+    $scope.participe_p4 = 'promo??es';
     $scope.participe_p4_append = 'interativas';
     $scope.participe_p5 = 'convide seus amigos';
-    $scope.participe_p6 = 'prepare-se para momentos incríveis';
+    $scope.participe_p6 = 'prepare-se para momentos incr?veis';
 
     // Conecte-se
     $scope.conecte_se_header = 'Conecte-se';
@@ -84,17 +84,17 @@ function marketingController($scope, $http){
 
     // Gerencie
     $scope.gerencie_header = 'Gerencie';
-    $scope.gerencie_p1 = 'Tenha relatórios de';
-    //$scope.gerencie_p1 = 'Relatórios de capitação';
+    $scope.gerencie_p1 = 'Tenha relat?rios de';
+    //$scope.gerencie_p1 = 'Relat?rios de capita??o';
 /*
     Acompanhe e controle
                   aspectos importantes do
                   seu evento tais como
                   quantidade de convites 
-                  disponíves, pessoas que 
-                  confirmaram presença, relação
+                  dispon?ves, pessoas que 
+                  confirmaram presen?a, rela??o
                   entre numero de homens e mulheres
-                  e até mesmo seu faturamento!
+                  e at? mesmo seu faturamento!
 
 */
 

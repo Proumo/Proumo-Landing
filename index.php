@@ -111,7 +111,7 @@
               </center>
               <h2> {{ descubra_header }} </h2>
               <p> {{ descubra_p1 }} <br><br><br> <strong>{{ descubra_p2 }} </strong> </p> 
-              <p><a class="btn" href="#">View details »</a></p>
+              <p><a class="btn" href="#">View details ?</a></p>
             </div>
 
             <div class="span4 lead_azul_claro">
@@ -127,7 +127,7 @@
                   <li> {{ participe_p5 }}; </li>
                   <li> {{ participe_p6 }}<strong>!</strong> </li>
                 </ul> 
-              <p><a class="btn" href="#">View details »</a></p>
+              <p><a class="btn" href="#">View details ?</a></p>
             </div>
 
             <div class="span4 lead_azul_escuro">
@@ -137,7 +137,7 @@
               <h2> {{ conecte_se_header }} </h2>
               <p>  {{ conecte_p1 }} <strong>{{ conecte_p1_append1 }}</strong> {{ conecte_p1_append2 }}<br> <br>
                    {{ conecte_p2 }} <strong>{{ conecte_p3 }}</strong>, <strong>{{ conecte_p4 }}</strong>, <strong>{{ conecte_p5 }}</strong>.
-              <p><a class="btn" href="#">View details »</a></p>
+              <p><a class="btn" href="#">View details ?</a></p>
             </div>
           </div>
         </div> <!-- /MarketingParticipante -->
@@ -158,7 +158,7 @@
                   {{ promova_p2 }} <strong> {{ promova_p3 }} </strong> 
                   {{ promova_p4 }} <strong> {{ promova_p4_append }} </strong> {{ promova_p4_continua }}
               </p>
-              <p><a class="btn" href="#">View details »</a></p>
+              <p><a class="btn" href="#">View details ?</a></p>
             </div>
 
             <div class="span4 lead_azul_claro">
@@ -171,10 +171,10 @@
                 <li> Impacto Social; </li>
                 <li> <strong>Gastos</strong> VS <strong>Ganhos</strong>; </li>
                 <li> <strong>Desempenho</strong> VS <strong>Tempo</strong>; </li>
-                <li> <strong>Comparativo</strong> entre anúncios; </li>
+                <li> <strong>Comparativo</strong> entre an?ncios; </li>
                 <li> Diversos tipos de Rankings; </li>
               </ul>
-              <p><a class="btn" href="#">View details »</a></p>
+              <p><a class="btn" href="#">View details ?</a></p>
             </div>
 
             <div class="span4 lead_azul_escuro">
@@ -182,8 +182,8 @@
               <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAYAAACuwEE+AAAFjUlEQVR4Xu3XSUtcaxCH8XJKHFEUERcqTuBGnFFRwa/uHCckKiGCU5aituI8G+qFFuNCrJuy7+26z1nFpLpO6l8/33O6IJPJPAsXCXwwgQLAfDApylICgAGCKQHAmOKiGDAYMCUAGFNcFAMGA6YEAGOKi2LAYMCUAGBMcVEMGAyYEgCMKS6KAYMBUwKAMcVFMWAwYEoAMKa4KAYMBkwJAMYUF8WAwYApAcCY4qIYMBgwJQAYU1wUAwYDpgQAY4qLYsBgwJQAYExxUQwYDJgSAIwpLooBgwFTAoAxxUUxYDBgSgAwprgoBgwGTAkAxhQXxYDBgCkBwJjiohgwGDAlABhTXBQDBgOmBABjiotiwGDAlABgTHFRDBgMmBIAjCkuigGDAVMCgDHFRTFgMGBKADCmuCgGDAZMCQDGFBfFgMGAKQHAmOKiGDAYMCUAGFNcFAMGA6YEAGOKi2LAYMCUAGBMcVEMGAyYEgCMKS6KAYMBUwKAMcVFMWAwYEoAMKa4KAYMBkwJ5D2Yvb09+fXrl4yMjEhpaekfw2cyGfnx44eUl5dLX1+fFBQUyPPzs2xubsrR0VH6ua2tTZqbmz8cWq7v9+H/WI4K8xbM6empKIjd3d0U1djYmJSVlb3EpjCmpqbk4eFBvnz5IuPj41JYWCjfv3+Xw8NDKSkpSf+mdd3d3dLQ0PBu5Lm+X472b75N3oKZnp6Wu7u7l4EVxOsTZnt7W/b399O/698rqMfHR9HPKZyJiYkETgHV1NRIV1eXrK+vS1FRkfT398vFxYX8/PlTvn79Kr29vTI7O+t6v8HBQfOy/gsfyFswejroI+Xbt29yfX2dTpAsGP15bm4uPWrOzs7k6uoqAbm/v0+LLy4uTj9nAenP+vm1tTU5OTmR2tpaubm5SZ/r7OyUlpaWdBp530/h5tuVt2CyQSsYPQ1eg1ldXU1QJicnZWlpSW5vb19OFEVRV1eX3mkUgZ44+sjSEygL6unpKbWvrq6WoaGhP3bqeT8FmG9XODD6rrGysiIVFRXS1NQkOzs7ogA6Ojqkvr4+nTz6mHn9iMqeMPobry+1+hm9hoeHpaqq6l0wf3s/wOQ4gbe/8cfHx+nR8vZSDHoKZR9J+mc9mfQE0m9Ro6OjCdbMzEw6efRSYD09Pe+C+Zv7ccLkGIvebmFhQS4vL18eSbr07MuwIlleXk4A9LTQd5z5+fn0btLY2Cjn5+cJTXt7u7S2tsrGxoYcHBxIZWVlqtFeb79Bed7vX4jrr2+Z948kPSH0feXtt6TX7zgKRh9B+hutuBYXFxOG7HvKwMBAwqO4tEZfiBXO1tbWywuyfnvSy+t++fjCq/PnPZh/8iujWPQE0UtPk8++cn2/z5znfwnmMwON3hsw0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3g4w0TfsPB9gnAON3u43z049tXeoahsAAAAASUVORK5CYII=">
               </center>
               <h2>Lucre</h2>
-              <p>Venda seus ingressos, crie promoções, economize tempo e dinheiro com Pruomos!</p>
-              <p><a class="btn" href="#">View details »</a></p>
+              <p>Venda seus ingressos, crie promo??es, economize tempo e dinheiro com Pruomos!</p>
+              <p><a class="btn" href="#">View details ?</a></p>
             </div>
           </div>
         </div><!-- /MarketingAnunciante -->
@@ -201,7 +201,7 @@
               </center>
               <h2>API</h2>
               <p></p>
-              <p><a class="btn" href="#">View details »</a></p>
+              <p><a class="btn" href="#">View details ?</a></p>
             </div>
 
             <div class="span4 lead_azul_claro">
@@ -210,7 +210,7 @@
               </center>
               <h2>API</h2>
               <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-              <p><a class="btn" href="#">View details »</a></p>
+              <p><a class="btn" href="#">View details ?</a></p>
             </div>
 
             <div class="span4 lead_azul_escuro">
@@ -219,7 +219,7 @@
               </center>
               <h2>Heading</h2>
               <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-              <p><a class="btn" href="#">View details »</a></p>
+              <p><a class="btn" href="#">View details ?</a></p>
             </div>
           </div>
         </div><!-- /API -->
