@@ -18,7 +18,7 @@ function navController($scope, $http){
 function headerController($scope, $http){
 	//Lead header
     $scope.lead_p1 = 'Fique por dentro';
-    $scope.lead_p2 = 'do que está rolando e';
+    $scope.lead_p2 = 'do que está rolando com';
     $scope.lead_p3 = 'novas formas de interação';
     $scope.lead_p4 = 'em';
     $scope.lead_p5 = 'EVENTOS!';
@@ -45,7 +45,7 @@ function marketingController($scope, $http){
     // Descubra
     $scope.descubra_header = 'Descubra';
     $scope.descubra_p1 = 'Agora ficou fácil saber o que está rolando perto de você e de seus amigos!';
-    $scope.descubra_p2 = 'Shows, festas, baladas, exposições... e muito mais!';
+    $scope.descubra_p2 = 'Entretenimento, esportes, gastronomia, cultura... e muito mais!';
     
     // Participe
     $scope.participe_header = 'Participe';
@@ -55,7 +55,8 @@ function marketingController($scope, $http){
     $scope.participe_p4 = 'promoções';
     $scope.participe_p4_append = 'interativas';
     $scope.participe_p5 = 'convide seus amigos';
-    $scope.participe_p6 = 'prepare-se para momentos incríveis';
+    $scope.participe_p6 = 'prepare-se para momentos';
+    $scope.participe_p6_append = 'incríveis';
 
     // Conecte-se
     $scope.conecte_se_header = 'Conecte-se';

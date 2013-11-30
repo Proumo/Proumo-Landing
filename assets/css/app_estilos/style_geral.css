@@ -65,6 +65,9 @@ body {
 	margin: 3% 0;
 }
 /* /Hotfix */
+#marketing-produto .jumbotron .lead {
+	line-height: 107%;
+}
 
 .masthead {
 	border-bottom: 2px solid whitesmoke;
