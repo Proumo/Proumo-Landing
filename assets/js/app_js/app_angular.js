@@ -9,7 +9,7 @@ function app_controller($scope, $http){
 
 function navController($scope, $http){
     $scope.nav_produto = 'Produto';
-    $scope.nav_participante = 'Participante';
+    $scope.nav_publico = 'Público';
     $scope.nav_anunciante = 'Anunciante';
     $scope.nav_api = 'API';
     $scope.mini_lead = 'Proumo - Rede Social de Eventos';
@@ -39,24 +39,23 @@ function headerController($scope, $http){
 function marketingController($scope, $http){
     $scope.nome_marca = 'Proumo';
 
-    //Parte do Participante
-    $scope.participante_lead_header = 'Participante';
+    //Parte do publico
+    $scope.publico_lead_header = 'Público';
 
     // Descubra
     $scope.descubra_header = 'Descubra';
     $scope.descubra_p1 = 'Agora ficou fácil saber o que está rolando perto de você e de seus amigos!';
     $scope.descubra_p2 = 'Entretenimento, esportes, gastronomia, cultura... e muito mais!';
     
-    // Participe
-    $scope.participe_header = 'Participe';
-    $scope.participe_p1 = 'Conectado às redes sociais:';
-    $scope.participe_p2 = 'confirme presença';
-    $scope.participe_p3 = 'saiba quem vai estar lá';
-    $scope.participe_p4 = 'promoções';
-    $scope.participe_p4_append = 'interativas';
-    $scope.participe_p5 = 'convide seus amigos';
-    $scope.participe_p6 = 'prepare-se para momentos';
-    $scope.participe_p6_append = 'incríveis';
+    // Loja - Público/publico
+    $scope.loja_publico = 'Loja';
+    $scope.loja_publico_p1 = 'Conectado às redes sociais e com nossos Apps interaja';
+    $scope.loja_publico_p2 = 'comprando com';
+    $scope.loja_publico_p2_append = 'comodidade e segurança';
+    $scope.loja_publico_p3_prepend = 'interagindo';
+    $scope.loja_publico_p3 = 'com os anúncios';
+    $scope.loja_publico_p4 = 'compartilhando os anúncios mais';
+    $scope.loja_publico_p4_append = 'interativos e criativos';
 
     // Conecte-se
     $scope.conecte_se_header = 'Conecte-se';
@@ -74,7 +73,7 @@ function marketingController($scope, $http){
     $scope.anunciante_lead_header = 'Anunciante';
 
     // promova
-    $scope.promova_header = 'Proumova';
+    $scope.promova_header = 'ProuMova';
     $scope.promova_p1 = 'leva seu evento a quem realmente interessa e';
     $scope.promova_p1_append = 'paga';
     $scope.promova_p2 = 'Utilizamos dados das';

@@ -11,7 +11,7 @@
 	color: green;
 }
 
-.lead_azul_claro_header {
+.lead_roxo_header {
 	color: #49afcd;
 }
 
@@ -23,7 +23,7 @@
 	color: green;
 }
 
-.lead_azul_claro strong, .lead_azul_claro h2  {
+.lead_roxo strong, .lead_roxo h2  {
 	color: #49afcd;
 }
 
@@ -31,15 +31,15 @@
 	color: #08c;
 }
 
-.lead_azul_claro ul {
+.lead_roxo ul {
 	margin-bottom: 2px;
 }
 
-.lead_azul_claro > strong {
+.lead_roxo > strong {
 	text-align: center;
 }
 
-.lead_azul_claro {
+.lead_roxo {
 	padding: 0 8px;
 }
 

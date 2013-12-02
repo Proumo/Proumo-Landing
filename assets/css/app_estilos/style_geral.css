@@ -102,12 +102,16 @@ h3.muted {
 	font-size: 14px;
 }
 
-#marketing-anunciante p, #marketing-participante p, #marketing-api p {
+#marketing-anunciante p, #marketing-publico p, #marketing-api p {
 	text-align: justify;
 }
 
+#marketing-anunciante p ul li, #marketing-publico p ul li, #marketing-api p ul li {
+	text-align: left;
+}
+
 .marketing ul {
-	min-height: 121px;
+	min-height: none;
 	max-height: 122px;
 }
 
@@ -127,3 +131,74 @@ margin: 40% 0;
     h2 { font-size: 15px; }
 }
 */
+
+/* Meu estilo */
+h1,h2,h3,h4,h5,h6,h7,strong,span {
+	cursor: default;
+}
+
+.marketing p {
+	min-height: 141px;
+	max-height: 122px;
+}
+
+.lead_azul_escuro strong {
+	font-size: 16px;
+}
+
+.lead_verde_header {
+	color: green;
+}
+
+.lead_roxo_header {
+	color: #49afcd;
+}
+
+.lead_azul_escuro_header {
+	color: #08c;
+}
+
+.lead_verde strong, .lead_verde h2  {
+	color: green;
+}
+
+.lead_roxo strong, .lead_roxo h2  {
+	color: #884488;
+}
+
+.lead_azul_escuro strong, .lead_azul_escuro h2 {
+	color: #08c;
+}
+
+.lead_roxo ul {
+	margin-bottom: 2px;
+}
+
+.lead_roxo > strong {
+	text-align: center;
+}
+
+.lead_roxo {
+	padding: 0 8px;
+}
+
+h2 {
+	text-align: center;
+}
+
+/* Produto */
+#btns_sociais {
+	margin: 6% 0 4% 0;
+}
+
+#btns_sociais .btn {
+	margin: 2% 0;
+}
+
+#nav.affix {
+    position: fixed;
+	background: white;
+	z-index: 9999999;
+	top: 0;
+}
+
