@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app id='ng-app'>
+<html ng-app="ngBindHtmlExample" id='ng-app'>
   <head>
     <meta charset="utf-8">
     <title>Proumo EventsApp</title>
@@ -27,6 +27,7 @@
     <script type="text/javascript" src="assets/js/jquery/jq-1.10.2.min.js"></script>
     <!-- Angular -->
     <script src="assets/js/angular/angular.min.js"></script>
+    <script src="assets/js/angular/angular-sanitize.min.js"></script>
     <!-- /Angular -->
   </head>
 
@@ -58,7 +59,6 @@
               <li><a href="#">es_ES</a></li>
             </ul>
           </div>
-          <!--<button  class="btn btn-info"><i class="icon-search"></i> pt_BR</button>-->
 
           <h3 class="muted"> {{ mini_lead }} </h3>
         </div>
@@ -70,10 +70,7 @@
             <img src="assets/img/logo.png">
           </div>
 
-          <p class="lead"> 
-              <strong>{{ lead_p1 }}</strong> {{ lead_p2 }} <strong>{{ lead_p3 }}</strong> 
-              {{ lead_p4 }} <strong>{{ lead_p5 }}</strong> 
-          </p>
+          <p class="lead" ng-bind-html="lead_header"></p>
 
           <div id="btns_sociais">
             <div id='sociais_1' class="row-fluid">
@@ -153,9 +150,9 @@
                 <i class="fi-price-tag sty-pr-icon anunciante-icon-azul"></i>
               </center>
               <h3> {{ promova_header }} </h3>
-              <p> <strong> {{ nome_marca }} </strong> {{ promova_p1 }} <strong> {{ promova_p1_append }} </strong>. <br><br>
-                  {{ promova_p2 }} <strong> {{ promova_p3 }} </strong> 
-                  {{ promova_p4 }} <strong> {{ promova_p4_append }} </strong> {{ promova_p4_continua }}
+              <p> <strong>Anúncio</strong> tem que ser algo <strong>chato</strong>? 
+                Conheça o <strong>Proumo</strong> e <strong>ProuMova</strong> de <strong>forma interativa</strong> e <strong>irreverente</strong>.<br><br>
+                <strong> {{ nome_marca }} </strong> {{ promova_p1 }} <strong> {{ promova_p1_append }}</strong>, segmentando por interesse
               </p>
               <p><a class="btn" href="#">View details ?</a></p>
             </div>
@@ -184,7 +181,9 @@
               </center>
               <h3>Lucre</h3>
               <p>"<strong>Primeiro</strong> nossos <strong>anunciantes</strong> são <strong>pagos</strong> e <strong>depois</strong> que somos".
-                  <br><br> <strong>Venda</strong> seus <strong>ingressos</strong>, crie <strong>promoções</strong>, <strong>economize tempo</strong> e <strong>dinheiro</strong> com <strong>Pruomo!</strong></p>
+                  <br><br> <strong>Venda</strong> seus <strong>ingressos</strong>, crie <strong>promoções</strong>, <strong>economize tempo</strong> e <strong>dinheiro</strong> com <strong>Pruomo!</strong>
+                  <br><strong>Espaço publicitário GRÁTIS!</strong>
+              </p>
               <p><a class="btn" href="#">View details ?</a></p>
             </div>
           </div>
@@ -202,7 +201,16 @@
                 <i class="fi-book-bookmark sty-pr-icon api-icon-azul"></i>
               </center>
               <h3>Guia</h3>
-              <p></p>
+              Nosso Guia ensina a
+              <ul>
+                <li>utilizar o <strong>AngularJS</strong>;</li>
+                <li>integrar com <strong>redes sociais</strong>;</li>
+                <li><strong>ProumoApp</strong> p/ <strong>Web</strong>+<strong>Mobile</strong>;</li>  
+              </ul>
+
+
+                  Nosso Guia apresenta como desenvolver os <strong>Apps</strong> para o <strong>Proumo</strong> de forma <strong>interativa</strong> e <strong>educativa</strong>.
+
               <p><a class="btn" href="#">View details ?</a></p>
             </div>
 

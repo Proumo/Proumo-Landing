@@ -2,28 +2,43 @@
 var json_pt_br;
 var json_en_us;
 var json_es_es;
+var nome_marca = 'Proumo';
 
-function app_controller($scope, $http){
+angular.module('ngBindHtmlExample', ['ngSanitize'])
+.controller('app_controller', ['$scope', app_controller($scope)])
+.controller('navController', ['$scope', navController($scope)])
+.controller('headerController', ['$scope', headerController($scope)])
+.controller('marketingController', ['$scope', marketingController($scope)]);
+
+function app_controller($scope){
 	
 }	
 
-function navController($scope, $http){
+// Barra de navegação
+function navController($scope){
     $scope.nav_produto = 'Produto';
     $scope.nav_publico = 'Público';
     $scope.nav_anunciante = 'Anunciante';
     $scope.nav_api = 'API';
     $scope.mini_lead = 'Proumo - Rede Social de Eventos';
-}
+}// Fim Navegação
 
-function headerController($scope, $http){
-	//Lead header
-    $scope.lead_p1 = 'Fique por dentro';
-    $scope.lead_p2 = 'do que está rolando com';
-    $scope.lead_p3 = 'novas formas de interação';
-    $scope.lead_p4 = 'em';
-    $scope.lead_p5 = 'EVENTOS!';
+// Header com a frase de impacto
+function headerController($scope){
+	//Lead header, cada p é uma parte de parte1 a parteN
+    lead_header_p1 = 'Fique por dentro';
+    lead_header_p2 = 'do que está rolando com';
+    lead_header_p3 = 'novas formas de interação';
+    lead_header_p4 = 'em';
+    lead_header_p5 = 'EVENTOS!';
 
-    // Btns redes sociais
+    $scope.lead_header = '<strong>'+lead_header_p1+'</strong> '+lead_header_p2+
+                         ' <strong>'+lead_header_p3+'</strong> '+lead_header_p4+
+                         '<strong> '+lead_header_p5+'</strong>';
+
+    /* /Header */
+
+    // Botões redes sociais
     pre_btn = 'Conecte com '
     $scope.btn_facebook = pre_btn+'Facebook';
     $scope.btn_youtube = pre_btn+'Youtube';
@@ -31,13 +46,14 @@ function headerController($scope, $http){
     $scope.btn_twitter = pre_btn+'Twitter';
     $scope.btn_foursquare = pre_btn+'Foursquare';
     $scope.btn_instagram = pre_btn+'Instagram';
+    /* /Botões redes sociais */
 
     $scope.btn_conectar = 'CONECTAR';
+}// Fim Header
 
-}
-
-function marketingController($scope, $http){
-    $scope.nome_marca = 'Proumo';
+// Parte do marketing em geral (é o corpo da landing)
+function marketingController($scope){
+    $scope.nome_marca = nome_marca;
 
     //Parte do publico
     $scope.publico_lead_header = 'Público';
@@ -74,6 +90,18 @@ function marketingController($scope, $http){
 
     // promova
     $scope.promova_header = 'ProuMova';
+    $scope.promova_p1_prepend = 'Anúncio';
+    $scope.promova_p1 = 'tem que ser algo';
+    $scope.promova_p1_append = 'chato';
+    $scope.promova_p1 = 'tem que ser algo';
+    $scope.promova_p2 = 'Conheça o';
+    $scope.promova_p2_append_1 = 'Proumo';
+    $scope.promova_p2_append_2 = 'e';
+    $scope.promova_p2_append_3 = '';
+
+
+
+    /*
     $scope.promova_p1 = 'leva seu evento a quem realmente interessa e';
     $scope.promova_p1_append = 'paga';
     $scope.promova_p2 = 'Utilizamos dados das';
@@ -81,7 +109,7 @@ function marketingController($scope, $http){
     $scope.promova_p4 = 'para';
     $scope.promova_p4_append = 'direcionar';
     $scope.promova_p4_continua = 'seu anúncio ao seu publico alvo';
-
+    */
     // Gerencie
     $scope.gerencie_header = 'Gerencie';
     $scope.gerencie_p1 = 'Tenha relatórios de';
