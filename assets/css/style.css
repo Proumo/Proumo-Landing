@@ -15,3 +15,7 @@
 
 /* Meus estilos */
 @import "app_estilos/style_geral.css";
+@import "app_estilos/produto.css";
+@import "app_estilos/participante.css";
+@import "app_estilos/anunciante.css";
+@import "app_estilos/api.css";

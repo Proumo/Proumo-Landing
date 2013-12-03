@@ -1,48 +1,11 @@
-.marketing p {
-	min-height: 135px;
-	max-height: 122px;
-}
-
-.lead_verde strong {
-	font-size: 16px;
-}
-
-.lead_verde_header {
+.participante-icon-verde {
 	color: green;
 }
 
-.lead_roxo_header {
-	color: #49afcd;
-}
-
-.lead_azul_escuro_header {
+.participante-icon-azul {
 	color: #08c;
 }
 
-.lead_verde strong, .lead_verde h2  {
-	color: green;
-}
-
-.lead_roxo strong, .lead_roxo h2  {
-	color: #49afcd;
-}
-
-.lead_azul_escuro strong, .lead_azul_escuro h2 {
-	color: #08c;
-}
-
-.lead_roxo ul {
-	margin-bottom: 2px;
-}
-
-.lead_roxo > strong {
-	text-align: center;
-}
-
-.lead_roxo {
-	padding: 0 8px;
-}
-
-h2 {
-	text-align: center;
+.participante-icon-roxo {
+	color: #884488;
 }

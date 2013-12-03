@@ -54,7 +54,7 @@ function marketingController($scope, $http){
     $scope.loja_publico_p2_append = 'comodidade e segurança';
     $scope.loja_publico_p3_prepend = 'interagindo';
     $scope.loja_publico_p3 = 'com os anúncios';
-    $scope.loja_publico_p4 = 'compartilhando os anúncios mais';
+    $scope.loja_publico_p4 = 'compartilhando os mais';
     $scope.loja_publico_p4_append = 'interativos e criativos';
 
     // Conecte-se
@@ -80,7 +80,7 @@ function marketingController($scope, $http){
     $scope.promova_p3 = 'redes sociais';
     $scope.promova_p4 = 'para';
     $scope.promova_p4_append = 'direcionar';
-    $scope.promova_p4_continua = 'seu anuncio ao seu publico alvo';
+    $scope.promova_p4_continua = 'seu anúncio ao seu publico alvo';
 
     // Gerencie
     $scope.gerencie_header = 'Gerencie';
