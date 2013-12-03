@@ -107,7 +107,7 @@
                 <i class="fi-magnifying-glass sty-pr-icon participante-icon-azul"></i>
               </center>
               <h3> {{ descubra_header }} </h3>
-              <p> {{ descubra_p1 }} <br><br> <strong>{{ descubra_p2 }} </strong> </p> 
+              <p ng-bind-html="descubra_p"></p> 
               <p><a class="btn" href="#">View details ?</a></p>
             </div>
 
@@ -116,8 +116,8 @@
                 <i class="fi-torsos-all sty-pr-icon participante-icon-roxo"></i>
               </center>
               <h3> {{ conecte_se_header }} </h3>
-              <p>  {{ conecte_p1 }} <strong>{{ conecte_p1_append1 }}</strong> {{ conecte_p1_append2 }}<br> <br> <br>
-                   {{ conecte_p2 }} <strong>{{ conecte_p3 }}</strong>, <strong>{{ conecte_p4 }}</strong>, <strong>{{ conecte_p5 }}</strong>...
+              <p ng-bind-html="conecte_p">  
+              </p>     
               <p><a class="btn" href="#">View details ?</a></p>
             </div>
 
@@ -125,13 +125,8 @@
               <center>
                 <i class="fi-shopping-cart sty-pr-icon participante-icon-verde"></i>
               </center>
-              <h3> {{ loja_publico }} </h3>
-               <strong>{{ loja_publico_p1 }}:</strong> 
-                <ul>
-                  <li> {{ loja_publico_p2 }} <strong>{{ loja_publico_p2_append }}</strong>; </li>
-                  <li> <strong>{{ loja_publico_p3_prepend }}</strong> {{ loja_publico_p3 }}; </li>
-                  <li> {{ loja_publico_p4 }} <strong>{{ loja_publico_p4_append }}</strong>. </li>
-                </ul> 
+              <h3> {{ loja_publico_header }} </h3>
+              <div ng-bind-html="loja_publico_p"></div>
               <p><a class="btn" href="#">View details ?</a></p>
             </div>
 

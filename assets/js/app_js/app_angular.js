@@ -60,28 +60,47 @@ function marketingController($scope){
 
     // Descubra
     $scope.descubra_header = 'Descubra';
-    $scope.descubra_p1 = 'Agora ficou fácil saber o que está rolando perto de você e de seus amigos!';
-    $scope.descubra_p2 = 'Entretenimento, esportes, gastronomia, cultura... e muito mais!';
-    
-    // Loja - Público/publico
-    $scope.loja_publico = 'Loja';
-    $scope.loja_publico_p1 = 'Conectado às redes sociais e com nossos Apps interaja';
-    $scope.loja_publico_p2 = 'comprando com';
-    $scope.loja_publico_p2_append = 'comodidade e segurança';
-    $scope.loja_publico_p3_prepend = 'interagindo';
-    $scope.loja_publico_p3 = 'com os anúncios';
-    $scope.loja_publico_p4 = 'compartilhando os mais';
-    $scope.loja_publico_p4_append = 'interativos e criativos';
+    descubra_p1 = 'Agora ficou fácil saber o que está rolando perto de você e de seus amigos!';
+    descubra_p2 = 'Entretenimento, esportes, gastronomia, cultura... e muito mais!';
 
+    $scope.descubra_p = descubra_p1+'<br><br> <strong>'+descubra_p2+'</strong>';
+    /* /Descubra */
+    
     // Conecte-se
     $scope.conecte_se_header = 'Conecte-se';
-    $scope.conecte_p1 = 'Seja notificado dos eventos que';
-    $scope.conecte_p1_append1 = 'realmente';
-    $scope.conecte_p1_append2 = 'te interessam e nunca mais os perca!';
-    $scope.conecte_p2 = 'Interaja com os eventos via';
-    $scope.conecte_p3 = 'celular';
-    $scope.conecte_p4 = 'Facebook';
-    $scope.conecte_p5 = 'Twitter';
+    conecte_p1 = 'Seja notificado dos eventos que';
+    conecte_p1_append = 'realmente';
+    conecte_p1_final = 'te interessam e nunca mais os perca!';
+    conecte_p2 = 'Interaja com os eventos via';
+    conecte_p2_append1 = 'celular';
+    conecte_p2_append2 = 'Facebook';
+    conecte_p2_append3 = 'Twitter';
+    conecte_p2_append4 = '...';
+
+    $scope.conecte_p = conecte_p1+' <strong>'+conecte_p1_append+'</strong> '+conecte_p1_final+'<br> <br> <br>'
+                        +conecte_p2+' <strong>'+conecte_p2_append1+'</strong>, <strong>'+conecte_p2_append2+
+                        '</strong>, <strong>'+conecte_p2_append3+'</strong>'+conecte_p2_append4;
+    /* /Conecte-se */
+
+    // Loja
+    $scope.loja_publico_header = 'Loja';
+    loja_publico_p1 = 'Conectado às redes sociais e com nossos Apps interaja';
+    loja_publico_p2_lista_item1 = 'comprando com';
+    loja_publico_p2_lista_item1_append = 'comodidade e segurança';
+    loja_publico_p2_lista_item2 = 'interagindo';
+    loja_publico_p2_lista_item2_append = 'com os anúncios';
+    loja_publico_p2_lista_item3 = 'compartilhando os mais';
+    loja_publico_p2_lista_item3_append = 'interativos e criativos';
+
+    $scope.loja_publico_p = '<strong>'+ loja_publico_p1 +'</strong>:'+
+                            '<ul><li>'+ loja_publico_p2_lista_item1 +' <strong>'+ loja_publico_p2_lista_item1_append +'</strong>;</li>'+
+                            '<li><strong>'+ loja_publico_p2_lista_item2 +'</strong>'+ loja_publico_p2_lista_item2_append +';</li>'+
+                            '<li>'+ loja_publico_p2_lista_item3 +' <strong>'+ loja_publico_p2_lista_item3_append +'</strong></li></ul>';
+    /* /Loja */
+
+
+
+    
 
 
 
