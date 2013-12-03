@@ -99,36 +99,39 @@ function marketingController($scope){
     /* /Loja */
 
 
-
-    
-
-
-
     //Parte da Anunciante
     $scope.anunciante_lead_header = 'Anunciante';
 
-    // promova
+    // ProuMova
     $scope.promova_header = 'ProuMova';
-    $scope.promova_p1_prepend = 'Anúncio';
-    $scope.promova_p1 = 'tem que ser algo';
-    $scope.promova_p1_append = 'chato';
-    $scope.promova_p1 = 'tem que ser algo';
-    $scope.promova_p2 = 'Conheça o';
-    $scope.promova_p2_append_1 = 'Proumo';
-    $scope.promova_p2_append_2 = 'e';
-    $scope.promova_p2_append_3 = '';
+    promova_p1 = 'Anúncio';
+    promova_p1_append = 'tem que ser algo';
+    promova_p1_append2 = 'chato';
+    promova_p2 = 'Conheça o';
+    promova_p2_append = 'e';
+    promova_p2_append2 = 'ProuMova';
+    promova_p2_append3 = 'de';
+    promova_p2_append4 = 'forma interativa';
+    promova_p2_append5 = 'e';
+    promova_p2_append6 = 'irreverente';
+    promova_p3 = 'permite ';
+    promova_p3_append = 'criar';
+    promova_p3_append0 = 'e';
+    promova_p3_append1 = 'publicar';
+    promova_p3_append2 = 'anúncios interativos';
+    promova_p3_append3 = 'Pague ';
+    promova_p3_append4 = 'por';
+    promova_p3_append5 ='usuários convertidos';
 
+    $scope.promova_p =  '<strong>'+ promova_p1 +'</strong> '+ promova_p1_append +' <strong>'+ promova_p1_append2 +'</strong>?'+
+                        promova_p2+' <strong>'+ nome_marca +'</strong> '+ promova_p2_append +' <strong>'+ promova_p2_append2 +'</strong> '+
+                        promova_p2_append3+' <strong>'+promova_p2_append4+' </strong>'+promova_p2_append5+'<strong> '+promova_p2_append6+'</strong>.<br><br>'+
+                        '<strong>'+nome_marca+'</strong> '+promova_p3+' <strong>'+promova_p3_append+'</strong> '+promova_p3_append0+
+                        ' <strong>'+promova_p3_append1+' '+promova_p3_append2+'</strong>.'+' <span class="label label-important">'+promova_p3_append3+
+                        '</span> '+ promova_p3_append4 +' <span class="label label-success">'+ promova_p3_append5 +'</span> <strong>!</strong>';
+    /* /ProuMova */
+    
 
-
-    /*
-    $scope.promova_p1 = 'leva seu evento a quem realmente interessa e';
-    $scope.promova_p1_append = 'paga';
-    $scope.promova_p2 = 'Utilizamos dados das';
-    $scope.promova_p3 = 'redes sociais';
-    $scope.promova_p4 = 'para';
-    $scope.promova_p4_append = 'direcionar';
-    $scope.promova_p4_continua = 'seu anúncio ao seu publico alvo';
-    */
     // Gerencie
     $scope.gerencie_header = 'Gerencie';
     $scope.gerencie_p1 = 'Tenha relatórios de';

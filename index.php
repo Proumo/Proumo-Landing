@@ -131,9 +131,9 @@
             </div>
 
           </div>
-        </div> <!-- /Marketingpublico -->
+        </div> <!-- /Marketing PUBLICO -->
 
-        <!-- MarketingAnunciante -->
+        <!-- Marketing ANUNCIANTE -->
         <div id="marketing-anunciante" class="row-fluid">
           <div class="row-fluid">
             <h1 class="span12 lead_roxo_header"> {{ anunciante_lead_header }} </h1>
@@ -145,10 +145,7 @@
                 <i class="fi-price-tag sty-pr-icon anunciante-icon-azul"></i>
               </center>
               <h3> {{ promova_header }} </h3>
-              <p> <strong>Anúncio</strong> tem que ser algo <strong>chato</strong>? 
-                Conheça o <strong>Proumo</strong> e <strong>ProuMova</strong> de <strong>forma interativa</strong> e <strong>irreverente</strong>.<br><br>
-                <strong> {{ nome_marca }} </strong> {{ promova_p1 }} <strong> {{ promova_p1_append }}</strong>, segmentando por interesse
-              </p>
+              <p ng-bind-html="promova_p"></p>
               <p><a class="btn" href="#">View details ?</a></p>
             </div>
 
@@ -177,12 +174,12 @@
               <h3>Lucre</h3>
               <p>"<strong>Primeiro</strong> nossos <strong>anunciantes</strong> são <strong>pagos</strong> e <strong>depois</strong> que somos".
                   <br><br> <strong>Venda</strong> seus <strong>ingressos</strong>, crie <strong>promoções</strong>, <strong>economize tempo</strong> e <strong>dinheiro</strong> com <strong>Pruomo!</strong>
-                  <br><strong>Espaço publicitário GRÁTIS!</strong>
+                  <br><strong>Espaço publicitário <span class="label label-important">GRÁTIS</span> !</strong>
               </p>
               <p><a class="btn" href="#">View details ?</a></p>
             </div>
           </div>
-        </div><!-- /MarketingAnunciante -->
+        </div><!-- /Marketing ANUNCIANTE -->
 
         <!-- API -->
         <div id="marketing-api" class="row-fluid">
