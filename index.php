@@ -120,7 +120,7 @@
               </center>
               <h3> {{ conecte_se_header }} </h3>
               <p>  {{ conecte_p1 }} <strong>{{ conecte_p1_append1 }}</strong> {{ conecte_p1_append2 }}<br> <br> <br>
-                   {{ conecte_p2 }} <strong>{{ conecte_p3 }}</strong>, <strong>{{ conecte_p4 }}</strong>, <strong>{{ conecte_p5 }}</strong>.
+                   {{ conecte_p2 }} <strong>{{ conecte_p3 }}</strong>, <strong>{{ conecte_p4 }}</strong>, <strong>{{ conecte_p5 }}</strong>...
               <p><a class="btn" href="#">View details ?</a></p>
             </div>
 
