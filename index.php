@@ -72,7 +72,7 @@
             <img src="assets/img/logo.png">
           </div>
 
-          <p class="lead" ng-bind-html="lead_header"></p>
+          <p class="lead ng-binding" ng-bind-html="lead_header"><strong>Fique por dentro</strong> do que está rolando com <strong>novas formas de interação</strong> em<strong> EVENTOS!</strong></p>
 
           <div id="btns_sociais">
             <div id='sociais_1' class="row-fluid">

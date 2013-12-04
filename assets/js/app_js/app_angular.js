@@ -31,11 +31,11 @@ function headerController($scope){
     lead_header_p3 = 'novas formas de interação';
     lead_header_p4 = 'em';
     lead_header_p5 = 'EVENTOS!';
-
+/*
     $scope.lead_header = '<strong>'+lead_header_p1+'</strong> '+lead_header_p2+
                          ' <strong>'+lead_header_p3+'</strong> '+lead_header_p4+
                          '<strong> '+lead_header_p5+'</strong>';
-
+*/
     /* /Header */
 
     // Botões redes sociais
