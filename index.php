@@ -88,7 +88,7 @@
             </div>
           </div>
 
-          <a id='conectar' class="btn btn-large btn-success" href=""> {{ btn_conectar }} </a>
+          <a id='conectar' class="btn btn-large btn-success" href="#"> {{ btn_conectar }} </a>
         </div>
 
         <hr>
@@ -216,7 +216,11 @@
                 <i class="fi-graph-trend sty-pr-icon api-icon-verde"></i>
               </center>
               <h3>Loja Escalável</h3>
-              <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+              <p>
+                Ganhe <strong>escala</strong> com nossa <strong>loja de aplicativos</strong> que leva <strong>seus apps</strong>
+                aos <strong>anunciantes</strong> e <strong>público alvo</strong>.<br><br>
+                <strong>Comercialize</strong> com <strong>vendas unitárias</strong>, 
+                <strong>assinaturas de serviços</strong> ou <strong>por interações</strong>.
               <p><a class="btn" href="#"><i class="fi-graph-trend icon-branco"></i> Escalone agora</a></p>
             </div>
           </div>
