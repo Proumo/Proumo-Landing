@@ -9,8 +9,15 @@ $('.btn-facebook').attr('data-original-title', 'Curta, compartilhe e convide a g
 $('.btn-youtube').attr('data-original-title', 'Compartilhe os videos com a galera nos eventos em tempo real');
 $('.btn-github').attr('data-original-title', 'Desenvolva Apps && Plugins');
 $('.btn-twitter').attr('data-original-title', 'Tweet e compartilhe sobre os eventos');
-$('.btn-foursquare').attr('data-original-title', 'Compartilhe aonde est? sendo o evento');
+$('.btn-foursquare').attr('data-original-title', 'Compartilhe aonde está sendo o evento');
 $('.btn-instagram').attr('data-original-title', 'Compartilhe suas fotos dos eventos');
+
+// Definição da cor dos botões
+$('.lead_azul_escuro .btn').addClass('btn-primary');
+$('.lead_verde .btn').addClass('btn-success');
+$('.lead_roxo .btn').addClass('btn-roxo');
+
+$('#marketing-publico .btn, #marketing-anunciante .btn, #marketing-api .btn').addClass('span12');
 
 $('#btns_sociais .btn').click(function(){
 	if($(this).hasClass('disabled')) return;

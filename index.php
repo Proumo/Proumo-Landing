@@ -47,6 +47,7 @@
             </ul>
           </div>
 
+          <!-- Btns internacionais
           <div id="btn_internacional" class="btn-group">
             <a id="btn_inter_content" class="btn btn-info dropdown-toggle" data-toggle="dropdown" href="#">
               pt_BR
@@ -59,6 +60,7 @@
               <li><a href="#">es_ES</a></li>
             </ul>
           </div>
+          -->
 
           <h3 class="muted"> {{ mini_lead }} </h3>
         </div>
@@ -108,7 +110,7 @@
               </center>
               <h3> {{ descubra_header }} </h3>
               <p ng-bind-html="descubra_p"></p> 
-              <p><a class="btn" href="#">View details ?</a></p>
+              <p><a class="btn" href="#"><i class="icon-search icon-white"></i> Descubra Agora</a></p>
             </div>
 
             <div class="span4 lead_roxo">
@@ -118,7 +120,7 @@
               <h3> {{ conecte_se_header }} </h3>
               <p ng-bind-html="conecte_p">  
               </p>     
-              <p><a class="btn" href="#">View details ?</a></p>
+              <p><a class="btn" href="#"><i class="fi-torsos-all icon-white"></i> Conecte-se Agora</a></p>
             </div>
 
             <div class="span4 lead_verde">
@@ -127,7 +129,7 @@
               </center>
               <h3> {{ loja_publico_header }} </h3>
               <div ng-bind-html="loja_publico_p"></div>
-              <p><a class="btn" href="#">View details ?</a></p>
+              <p><a class="btn" href="#"><i class="fi-shopping-cart icon-branco"></i> Interaja agora</a></p>
             </div>
 
           </div>
@@ -146,7 +148,7 @@
               </center>
               <h3> {{ promova_header }} </h3>
               <p ng-bind-html="promova_p"></p>
-              <p><a class="btn" href="#">View details ?</a></p>
+              <p><a class="btn" href="#"><i class="fi-price-tag icon-branco"></i> Proumova agora</a></p>
             </div>
 
             <div class="span4 lead_roxo">
@@ -154,29 +156,17 @@
                 <i class="fi-graph-bar sty-pr-icon anunciante-icon-roxo"></i>  
               </center>
               <h3> {{ gerencie_header }} </h3>
-              <strong> {{ gerencie_p1 }} </strong>
-              <div id="lista_gerencie">
-                <ul>
-                  <li> Impacto Social; </li>
-                  <li> <strong>Gastos</strong> VS <strong>Ganhos</strong>; </li>
-                  <li> <strong>Desempenho</strong> VS <strong>Tempo</strong>; </li>
-                  <li> <strong>Comparativo</strong> entre an?ncios; </li>
-                  <li> Diversos tipos de Rankings; </li>
-                </ul>
-              </div>
-              <p><a class="btn" href="#">View details ?</a></p>
+              <div id="lista_gerencie" ng-bind-html="gerencie_p"></div>
+              <p><a class="btn" href="#"><i class="fi-graph-bar icon-branco"></i> GERENCIE AGORA</a></p>
             </div>
 
             <div class="span4 lead_verde">
               <center>
                 <i class="fi-dollar-bill sty-pr-icon anunciante-icon-verde"></i>
               </center>
-              <h3>Lucre</h3>
-              <p>"<strong>Primeiro</strong> nossos <strong>anunciantes</strong> são <strong>pagos</strong> e <strong>depois</strong> que somos".
-                  <br><br> <strong>Venda</strong> seus <strong>ingressos</strong>, crie <strong>promoções</strong>, <strong>economize tempo</strong> e <strong>dinheiro</strong> com <strong>Pruomo!</strong>
-                  <br><strong>Espaço publicitário <span class="label label-important">GRÁTIS</span> !</strong>
-              </p>
-              <p><a class="btn" href="#">View details ?</a></p>
+              <h3> {{ lucre_header }} </h3>
+              <p ng-bind-html="lucre_p"></p>
+              <p><a class="btn" href="#"><i class="fi-dollar-bill icon-branco"></i> LUcre agora</a></p>
             </div>
           </div>
         </div><!-- /Marketing ANUNCIANTE -->
@@ -197,13 +187,14 @@
               <ul>
                 <li>utilizar o <strong>AngularJS</strong>;</li>
                 <li>integrar com <strong>redes sociais</strong>;</li>
-                <li><strong>ProumoApp</strong> p/ <strong>Web</strong>+<strong>Mobile</strong>;</li>  
+                <li>fazer <strong>ProumoApp</strong> em 5 mins</li>  
+                  <ul>
+                    <li><strong>Web</strong></li>
+                    <li><strong>Mobile</strong></li>
+                    <li><strong>FaceApp</strong></li>
+                  </ul>
               </ul>
-
-
-                  Nosso Guia apresenta como desenvolver os <strong>Apps</strong> para o <strong>Proumo</strong> de forma <strong>interativa</strong> e <strong>educativa</strong>.
-
-              <p><a class="btn" href="#">View details ?</a></p>
+              <p><a class="btn" href="#"><i class="fi-book-bookmark icon-branco"></i> Aprenda agora</a></p>
             </div>
 
             <div class="span4 lead_roxo">
@@ -211,8 +202,13 @@
                 <i class="fi-puzzle sty-pr-icon api-icon-roxo"></i>  
               </center>
               <h3>SDK DevCenter</h3>
-              <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-              <p><a class="btn" href="#">View details ?</a></p>
+              <p>
+                <strong>ProumoSDK</strong> usa o <strong>AngularJS</strong>.<br><br>
+                <strong>ProumoSDK</strong> elimina overhead com <strong>servidores</strong> 
+                (de <strong>storage</strong>, de <strong>dados</strong>, de <strong>aplicação</strong>).
+                Conhecimentos em <strong>WebDesign</strong> são suficientes para o dev.
+              </p>
+              <p><a class="btn" href="#"><i class="fi-puzzle icon-branco"></i> Desenvolva agora</a></p>
             </div>
 
             <div class="span4 lead_verde">
@@ -221,7 +217,7 @@
               </center>
               <h3>Loja Escalável</h3>
               <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-              <p><a class="btn" href="#">View details ?</a></p>
+              <p><a class="btn" href="#"><i class="fi-graph-trend icon-branco"></i> Escalone agora</a></p>
             </div>
           </div>
         </div><!-- /API -->
@@ -251,7 +247,6 @@
     <!-- Meus JS -->
     <script type="text/javascript" src="assets/js/app_js/app_jq.js"></script>
     <script type="text/javascript" src="assets/js/app_js/app_angular.js"></script>
-    <script type="text/javascript" src="assets/js/app_js/rotas.js"></script>
     <script type="text/javascript" src="assets/js/app_js/bootstrap_app.js"></script>
     <!-- /Meus JS -->
   </body>

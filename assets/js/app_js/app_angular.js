@@ -94,7 +94,7 @@ function marketingController($scope){
 
     $scope.loja_publico_p = '<strong>'+ loja_publico_p1 +'</strong>:'+
                             '<ul><li>'+ loja_publico_p2_lista_item1 +' <strong>'+ loja_publico_p2_lista_item1_append +'</strong>;</li>'+
-                            '<li><strong>'+ loja_publico_p2_lista_item2 +'</strong>'+ loja_publico_p2_lista_item2_append +';</li>'+
+                            '<li><strong>'+ loja_publico_p2_lista_item2 +'</strong> '+ loja_publico_p2_lista_item2_append +';</li>'+
                             '<li>'+ loja_publico_p2_lista_item3 +' <strong>'+ loja_publico_p2_lista_item3_append +'</strong></li></ul>';
     /* /Loja */
 
@@ -112,7 +112,7 @@ function marketingController($scope){
     promova_p2_append2 = 'ProuMova';
     promova_p2_append3 = 'de';
     promova_p2_append4 = 'forma interativa';
-    promova_p2_append5 = 'e';
+    promova_p2_append5 = 'e';   
     promova_p2_append6 = 'irreverente';
     promova_p3 = 'permite ';
     promova_p3_append = 'criar';
@@ -130,25 +130,245 @@ function marketingController($scope){
                         ' <strong>'+promova_p3_append1+' '+promova_p3_append2+'</strong>.'+' <span class="label label-important">'+promova_p3_append3+
                         '</span> '+ promova_p3_append4 +' <span class="label label-success">'+ promova_p3_append5 +'</span> <strong>!</strong>';
     /* /ProuMova */
-    
+
 
     // Gerencie
     $scope.gerencie_header = 'Gerencie';
-    $scope.gerencie_p1 = 'Tenha relatórios de';
-    //$scope.gerencie_p1 = 'Relat?rios de capita??o';
-/*
-    Acompanhe e controle
-                  aspectos importantes do
-                  seu evento tais como
-                  quantidade de convites 
-                  dispon?ves, pessoas que 
-                  confirmaram presen?a, rela??o
-                  entre numero de homens e mulheres
-                  e at? mesmo seu faturamento!
 
-*/
+    gerencie_p1 = 'Tenha relatórios de';
+    gerencie_p2_item1 = 'Impacto Social';
+    gerencie_p2_item2 = 'Gastos';
+    gerencie_p2_item2_append = 'VS';
+    gerencie_p2_item2_append1 = 'Ganhos';
+    gerencie_p2_item3 = 'Desempenho';
+    gerencie_p2_item3_append = 'VS';
+    gerencie_p2_item3_append1 = 'Tempo';
+    gerencie_p2_item4 = 'Comparativo';
+    gerencie_p2_item4_append = 'entre anúncios';
+    gerencie_p2_item5 = 'Diversos tipos de';
+    gerencie_p2_item5_append = 'Rankings';
 
+    $scope.gerencie_p = '<strong>'+ gerencie_p1 +'</strong>:<ul><li><strong>'+ gerencie_p2_item1+'</strong>;</li>'+
+                        '<li><strong>'+ gerencie_p2_item2 +'</strong> '+gerencie_p2_item2_append+' <strong>'+gerencie_p2_item2_append1+'</strong>;</li>'+
+                        '<li><strong>'+gerencie_p2_item3+'</strong> '+gerencie_p2_item3_append+' <strong>'+gerencie_p2_item3_append1+'</strong>;</li>'+
+                        '<li><strong>'+gerencie_p2_item4+'</strong> '+gerencie_p2_item4_append+';</li>'+
+                        '<li>'+gerencie_p2_item5+' <strong>'+gerencie_p2_item5_append+'</strong></li></ul>';
+    /* /Gerencie */
+
+
+    // Lucre
+    $scope.lucre_header = 'Lucre';
+    lucre_p1 = 'Primeiro';
+    lucre_p1_append = 'nossos';
+    lucre_p1_append1 = 'anunciantes recebem';
+    lucre_p1_append2 = 'só';
+    lucre_p1_append3 = 'depois';
+    lucre_p1_append4 = 'recebemos';
+
+    lucre_p2 = 'Venda';
+    lucre_p2_append = 'seus';
+    lucre_p2_append1 = 'ingressos';
+    lucre_p2_append2 = 'crie';
+    lucre_p2_append3 = 'promoções';
+    lucre_p2_append4 = 'economize tempo';
+    lucre_p2_append5 = 'e';
+    lucre_p2_append6 = 'dinheiro';
+    lucre_p2_append7 = 'com';
+    lucre_p2_append8 = 'Proumo';
+    lucre_p2_append9 = 'Espaço publicitário';
+    lucre_p2_append10 = 'GRÁTIS';
+
+    $scope.lucre_p = '"<strong>'+lucre_p1+'</strong> '+lucre_p1_append+' <strong>'+lucre_p1_append1+'</strong> '+
+                     ' '+lucre_p1_append2+' <strong>'+lucre_p1_append3+'</strong> '+lucre_p1_append4+'".<br><br>'+
+                     '<strong>'+lucre_p2+'</strong> '+lucre_p2_append+' <strong>'+lucre_p2_append1+'</strong>'+
+                     ', '+lucre_p2_append2+' <strong>'+lucre_p2_append3+'</strong>, <strong>'+lucre_p2_append4+'</strong> '+
+                     lucre_p2_append5+' <strong>'+lucre_p2_append6+'</strong> '+lucre_p2_append7+' <strong>'+nome_marca+'!</strong><br>'+
+                     '<strong>'+lucre_p2_append9+'</strong> <span class="label label-important">'+lucre_p2_append10+'</span>'+
+                     ' <strong>!</strong>';
+    /* /Lucre */
 
 
     //Parte da API
+
+    
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

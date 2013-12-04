@@ -100,6 +100,7 @@ body {
 
 h3.muted {
 	font-size: 14px;
+	float: left;
 }
 
 #marketing-anunciante p, #marketing-publico p, #marketing-api p {
@@ -160,7 +161,7 @@ h3 {
 }
 
 #lista_gerencie {
-	min-height: 129px;
+	min-height: 143px;
 }
 
 .sty-pr-icon {
@@ -201,6 +202,7 @@ h3 {
 
 .lead_roxo ul {
 	margin-bottom: 2px;
+	margin-left: 18px
 }
 
 .lead_roxo > strong {
@@ -215,3 +217,18 @@ h3 {
 	text-align: center;
 }
 
+.lead_roxo {
+	margin-left: 17px;
+}
+
+.lead_verde {
+	margin-left: 18px;	
+}
+
+#marketing-publico .btn, #marketing-anunciante .btn, #marketing-api .btn {
+	text-transform: uppercase;
+}
+
+.icon-branco {
+	color: white;
+}
