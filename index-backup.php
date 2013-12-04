@@ -40,10 +40,10 @@
           
           <div id="side-nav">
             <ul class="nav nav-pills pull-right">
-              <li class="active"><a href="#marketing-produto"> Produto </a></li>
-              <li><a href="#marketing-publico"> Público </a></li>
-              <li><a href="#marketing-anunciante"> Anúnciante </a></li>
-              <li><a href="#marketing-api"> API </a></li>
+              <li class="active"><a href="#marketing-produto"> {{ nav_produto }} </a></li>
+              <li><a href="#marketing-publico"> {{ nav_publico }} </a></li>
+              <li><a href="#marketing-anunciante"> {{ nav_anunciante }} </a></li>
+              <li><a href="#marketing-api"> {{ nav_api }} </a></li>
             </ul>
           </div>
 
@@ -62,7 +62,7 @@
           </div>
           -->
 
-          <h3 class="muted"> Proumo - Rede Social de Eventos </h3>
+          <h3 class="muted"> {{ mini_lead }} </h3>
         </div>
       </nav>
 
@@ -100,7 +100,7 @@
         <!-- Marketingpublico -->
         <div id="marketing-publico" class="row-fluid">
           <div class="row-fluid">
-            <h1 class="span12 lead_azul_escuro_header"> Público </h1>
+            <h1 class="span12 lead_azul_escuro_header"> {{ publico_lead_header }} </h1>
           </div>
 
           <div class="row-fluid">
@@ -108,27 +108,28 @@
               <center>
                 <i class="fi-magnifying-glass sty-pr-icon participante-icon-azul"></i>
               </center>
-              <h3 class="ng-binding"> Descubra </h3>
-              <p ng-bind-html="descubra_p" class="ng-binding">Agora ficou fácil saber o que está rolando perto de você e de seus amigos!<br><br> <strong>Entretenimento, esportes, gastronomia, cultura... e muito mais!</strong></p> 
-              <p><a class="btn btn-primary span12" href="#"><i class="icon-search icon-white"></i> Descubra Agora</a></p>
+              <h3> {{ descubra_header }} </h3>
+              <p ng-bind-html="descubra_p"></p> 
+              <p><a class="btn" href="#"><i class="icon-search icon-white"></i> Descubra Agora</a></p>
             </div>
 
             <div class="span4 lead_roxo">
               <center>
                 <i class="fi-torsos-all sty-pr-icon participante-icon-roxo"></i>
               </center>
-              <h3 class="ng-binding"> Conecte-se </h3>
-              <p ng-bind-html="conecte_p" class="ng-binding">Seja notificado dos eventos que <strong>realmente</strong> te <strong>interessam</strong> e nunca mais os perca!<br> <br> <br>Interaja com os eventos via <strong>celular</strong>, <strong>Facebook</strong>, <strong>Twitter</strong>...</p>     
-              <p><a class="btn btn-roxo span12" href="#"><i class="fi-torsos-all icon-white"></i> Conecte-se Agora</a></p>
+              <h3> {{ conecte_se_header }} </h3>
+              <p ng-bind-html="conecte_p">  
+              </p>     
+              <p><a class="btn" href="#"><i class="fi-torsos-all icon-white"></i> Conecte-se Agora</a></p>
             </div>
 
             <div class="span4 lead_verde">
               <center>
                 <i class="fi-shopping-cart sty-pr-icon participante-icon-verde"></i>
               </center>
-              <h3 class="ng-binding"> Loja </h3>
-              <div ng-bind-html="loja_publico_p" class="ng-binding"><strong>Conectado às redes sociais e com nossos Apps interaja</strong>:<ul><li>comprando com <strong>comodidade e segurança</strong>;</li><li><strong>interagindo</strong> com os anúncios;</li><li>compartilhando os mais <strong>interativos e criativos</strong></li></ul></div>
-              <p><a class="btn btn-success span12" href="#"><i class="fi-shopping-cart icon-branco"></i> Interaja agora</a></p>
+              <h3> {{ loja_publico_header }} </h3>
+              <div ng-bind-html="loja_publico_p"></div>
+              <p><a class="btn" href="#"><i class="fi-shopping-cart icon-branco"></i> Interaja agora</a></p>
             </div>
 
           </div>
@@ -137,38 +138,36 @@
         <!-- Marketing ANUNCIANTE -->
         <div id="marketing-anunciante" class="row-fluid">
           <div class="row-fluid">
-            <h1 class="span12 lead_roxo_header"> Anunciante </h1>
+            <h1 class="span12 lead_roxo_header"> {{ anunciante_lead_header }} </h1>
           </div>
 
           <div class="row-fluid">
-            
             <div class="span4 lead_azul_escuro">
               <center>
                 <i class="fi-price-tag sty-pr-icon anunciante-icon-azul"></i>
               </center>
-              <h3 class="ng-binding"> ProuMova </h3>
-              <p ng-bind-html="promova_p" class="ng-binding"><strong>Anúncio</strong> tem que ser algo <strong>chato</strong>?Conheça o <strong>Proumo</strong> e <strong>ProuMova</strong> de <strong>forma interativa </strong>e<strong> irreverente</strong>.<br><br><strong>Proumo</strong> permite  <strong>criar</strong> e <strong>publicar anúncios interativos</strong>. <span class="label label-important">Pague </span> por <span class="label label-success">usuários convertidos</span> <strong>!</strong></p>
-              <p><a class="btn btn-primary span12" href="#"><i class="fi-price-tag icon-branco"></i> Proumova agora</a></p>
+              <h3> {{ promova_header }} </h3>
+              <p ng-bind-html="promova_p"></p>
+              <p><a class="btn" href="#"><i class="fi-price-tag icon-branco"></i> Proumova agora</a></p>
             </div>
 
             <div class="span4 lead_roxo">
               <center>
                 <i class="fi-graph-bar sty-pr-icon anunciante-icon-roxo"></i>  
               </center>
-              <h3 class="ng-binding"> Gerencie </h3>
-              <div id="lista_gerencie" ng-bind-html="gerencie_p" class="ng-binding"><strong>Tenha relatórios de</strong>:<ul><li><strong>Impacto Social</strong>;</li><li><strong>Gastos</strong> VS <strong>Ganhos</strong>;</li><li><strong>Desempenho</strong> VS <strong>Tempo</strong>;</li><li><strong>Comparativo</strong> entre anúncios;</li><li>Diversos tipos de <strong>Rankings</strong></li></ul></div>
-              <p><a class="btn btn-roxo span12" href="#"><i class="fi-graph-bar icon-branco"></i> GERENCIE AGORA</a></p>
+              <h3> {{ gerencie_header }} </h3>
+              <div id="lista_gerencie" ng-bind-html="gerencie_p"></div>
+              <p><a class="btn" href="#"><i class="fi-graph-bar icon-branco"></i> GERENCIE AGORA</a></p>
             </div>
 
             <div class="span4 lead_verde">
               <center>
                 <i class="fi-dollar-bill sty-pr-icon anunciante-icon-verde"></i>
               </center>
-              <h3 class="ng-binding"> Lucre </h3>
-              <p ng-bind-html="lucre_p" class="ng-binding">"<strong>Primeiro</strong> nossos <strong>anunciantes recebem</strong>  só <strong>depois</strong> recebemos".<br><br><strong>Venda</strong> seus <strong>ingressos</strong>, crie <strong>promoções</strong>, <strong>economize tempo</strong> e <strong>dinheiro</strong> com <strong>Proumo!</strong><br><strong>Espaço publicitário</strong> <span class="label label-important">GRÁTIS</span> <strong>!</strong></p>
-              <p><a class="btn btn-success span12" href="#"><i class="fi-dollar-bill icon-branco"></i> LUcre agora</a></p>
+              <h3> {{ lucre_header }} </h3>
+              <p ng-bind-html="lucre_p"></p>
+              <p><a class="btn" href="#"><i class="fi-dollar-bill icon-branco"></i> LUcre agora</a></p>
             </div>
-
           </div>
         </div><!-- /Marketing ANUNCIANTE -->
 
@@ -195,7 +194,7 @@
                     <li><strong>FaceApp</strong></li>
                   </ul>
               </ul>
-              <p><a class="btn btn-primary span12" href="#"><i class="fi-book-bookmark icon-branco"></i> Aprenda agora</a></p>
+              <p><a class="btn" href="#"><i class="fi-book-bookmark icon-branco"></i> Aprenda agora</a></p>
             </div>
 
             <div class="span4 lead_roxo">
@@ -209,7 +208,7 @@
                 (de <strong>storage</strong>, de <strong>dados</strong>, de <strong>aplicação</strong>).
                 Conhecimentos em <strong>WebDesign</strong> são suficientes para o dev.
               </p>
-              <p><a class="btn btn-roxo span12" href="#"><i class="fi-puzzle icon-branco"></i> Desenvolva agora</a></p>
+              <p><a class="btn" href="#"><i class="fi-puzzle icon-branco"></i> Desenvolva agora</a></p>
             </div>
 
             <div class="span4 lead_verde">
@@ -222,9 +221,8 @@
                 aos <strong>anunciantes</strong> e <strong>público alvo</strong>.<br><br>
                 <strong>Comercialize</strong> com <strong>vendas unitárias</strong>, 
                 <strong>assinaturas de serviços</strong> ou <strong>por interações</strong>.
-              </p><p><a class="btn btn-success span12" href="#"><i class="fi-graph-trend icon-branco"></i> Escalone agora</a></p>
+              <p><a class="btn" href="#"><i class="fi-graph-trend icon-branco"></i> Escalone agora</a></p>
             </div>
-
           </div>
         </div><!-- /API -->
 
