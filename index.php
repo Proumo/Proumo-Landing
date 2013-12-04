@@ -36,7 +36,7 @@
     <div class="container-narrow">
 
       <nav id="nav" class="navbar-fixed-top row-fluid" ng-controller="navController">
-        <div class="masthead span7">
+        <div class="masthead span9">
           
           <div id="side-nav">
             <ul class="nav nav-pills pull-right">
