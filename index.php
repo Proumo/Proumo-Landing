@@ -148,7 +148,7 @@
                 <i class="fi-price-tag sty-pr-icon anunciante-icon-azul"></i>
               </center>
               <h3 class="ng-binding"> ProuMova </h3>
-              <p ng-bind-html="promova_p" class="ng-binding"><strong>Anúncio</strong> tem que ser algo <strong>chato</strong>?Conheça o <strong>Proumo</strong> e <strong>ProuMova</strong> de <strong>forma interativa </strong>e<strong> irreverente</strong>.<br><br><strong>Proumo</strong> permite  <strong>criar</strong> e <strong>publicar anúncios interativos</strong>. <span class="label label-important">Pague </span> por <span class="label label-success">usuários convertidos</span> <strong>!</strong></p>
+              <p ng-bind-html="promova_p" class="ng-binding"><strong>Anúncio</strong> tem que ser algo <strong>chato</strong>?Conheça o <strong>Proumo</strong> e <strong>ProuMova</strong> de <strong>forma interativa </strong>e<strong> irreverente</strong>.<br><br><strong>Proumo</strong> permite  <strong>criar</strong> e <strong>publicar anúncios interativos</strong>. <span class="label label-important">Pague </span> por <span class="label label-success">usuários convertidos em consumidores</span> <strong>!</strong></p>
               <p><a class="btn btn-primary span12" href="#"><i class="fi-price-tag icon-branco"></i> Proumova agora</a></p>
             </div>
 
