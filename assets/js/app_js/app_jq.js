@@ -18,6 +18,7 @@ $('.lead_verde .btn').addClass('btn-success');
 $('.lead_roxo .btn').addClass('btn-roxo');
 
 $('#marketing-publico .btn, #marketing-anunciante .btn, #marketing-api .btn').addClass('span12');
+$('.btn').addClass('btn-large');
 
 $('#btns_sociais .btn').click(function(){
 	if($(this).hasClass('disabled')) return;

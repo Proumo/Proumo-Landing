@@ -72,7 +72,8 @@
             <img src="assets/img/logo.png">
           </div>
 
-          <p class="lead ng-binding"><strong>Fique por dentro</strong> do que está rolando com <strong>novas formas de interação</strong> em<strong> EVENTOS!</strong></p>
+          <p class="lead ng-binding">
+            <strong>Fique por dentro</strong> do que está rolando com <strong>novas formas de proumoção e interação</strong> em <strong>EVENTOS</strong>!</p>
 
           <div id="btns_sociais">
             <div id='sociais_1' class="row-fluid">
@@ -233,9 +234,9 @@
 
       <hr>
 
-      <div class="footer">
-        <p>&copy; Company 2013</p>
-      </div>
+      <footer id="copyright">
+        <p>&copy; Proumo 2013 <img src="assets/img/logo.png" style="width:110px;margin: -8px 0 0 15px;"</p>
+      </footer>
 
     </div> <!-- /container -->
 
