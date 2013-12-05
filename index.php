@@ -166,7 +166,7 @@
                 <i class="fi-dollar-bill sty-pr-icon anunciante-icon-verde"></i>
               </center>
               <h3 class="ng-binding"> Lucre </h3>
-              <p ng-bind-html="lucre_p" class="ng-binding">"<strong>Primeiro</strong> nossos <strong>anunciantes recebem</strong>  só <strong>depois</strong> recebemos".<br><br><span class="label label-important">Pague</span> apenas pelas interatividades: <strong>Venda</strong> de <strong>ingressos</strong>; criação de <strong>promoções</strong>; e <strong>apps (nossa loja)</strong>.<br><strong>Espaço publicitário</strong> <span class="label label-important">GRÁTIS</span> <strong>!</strong></p>
+              <p ng-bind-html="lucre_p" class="ng-binding">"<strong>Primeiro</strong> nossos <strong>anunciantes recebem</strong>  só <strong>depois</strong> recebemos".<br><br><strong>Venda</strong> seus <strong>ingressos</strong>, crie <strong>promoções</strong>, <strong>economize tempo</strong> e <strong>dinheiro</strong> com <strong>Proumo!</strong><br><strong>Espaço publicitário</strong> <span class="label label-important">GRÁTIS</span> <strong>!</strong></p>
               <p><a class="btn btn-success span12" href="#"><i class="fi-dollar-bill icon-branco"></i> LUcre agora</a></p>
             </div>
 
