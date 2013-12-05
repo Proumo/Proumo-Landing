@@ -9,3 +9,7 @@
 .anunciante-icon-roxo {
 	color: #884488;
 }
+
+#marketing-anunciante .lead_roxo ul {
+	min-height: 127px;
+}
