@@ -1,4 +1,4 @@
-// Vari?veis que guardam os JSON de Locale para que faça cache do JSON
+// Variáveis que guardam os JSON de Locale para que faça cache do JSON
 var json_pt_br;
 var json_en_us;
 var json_es_es;
@@ -12,7 +12,7 @@ angular.module('ngBindHtmlExample', ['ngSanitize'])
 
 function app_controller($scope){
 	
-}	
+}
 
 // Barra de navegação
 function navController($scope){
