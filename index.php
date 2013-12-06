@@ -110,7 +110,7 @@
                 <i class="fi-magnifying-glass sty-pr-icon participante-icon-azul"></i>
               </center>
               <h3 class="ng-binding"> Descubra </h3>
-              <p ng-bind-html="descubra_p" class="ng-binding">Agora ficou fácil saber o que está rolando perto de você e de seus amigos!<br><br> <strong>Entretenimento, esportes, gastronomia, cultura... e muito mais!</strong></p> 
+              <p ng-bind-html="descubra_p" class="ng-binding">Agora ficou fácil saber o que está rolando perto de você e de seus amigos!<br><br><br> <strong>Entretenimento, esportes, gastronomia, cultura... e muito mais!</strong></p> 
               <p><a class="btn btn-primary span12" href="#"><i class="icon-search icon-white"></i> Descubra Agora</a></p>
             </div>
 
@@ -207,8 +207,7 @@
               <p>
                 <strong>ProumoSDK</strong> usa o <strong>AngularJS</strong>.<br><br>
                 <strong>ProumoSDK</strong> elimina overhead com <strong>servidores</strong> 
-                (de <strong>storage</strong>, de <strong>dados</strong>, de <strong>aplicação</strong>).
-                Conhecimentos em <strong>WebDesign</strong> são suficientes para o dev.
+                (de <strong>storage</strong>, de <strong>dados</strong>, de <strong>aplicação</strong>) e permite desenvolver <strong>apps completos</strong> somente com <strong>HTML5</strong>, <strong>CSS3</strong> e <strong>JavaScript</strong>.
               </p>
               <p><a class="btn btn-roxo span12" href="#"><i class="fi-puzzle icon-branco"></i> Desenvolva agora</a></p>
             </div>
