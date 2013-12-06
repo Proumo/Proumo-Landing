@@ -62,7 +62,7 @@
           </div>
           -->
 
-          <h3 class="muted"> Proumo - Rede Social de Eventos </h3>
+          <!--<h3 class="muted"> Proumo - Rede Social de Eventos </h3>-->
         </div>
       </nav>
 

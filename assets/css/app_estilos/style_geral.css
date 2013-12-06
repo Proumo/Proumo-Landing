@@ -234,7 +234,7 @@ h3 {
 }
 
 body .container-narrow .marketing .row-fluid .span4 {
-	font-size: 1.2em;
+	font-size: 1.15em;
 }
 
 body .container-narrow .marketing .row-fluid .btn-roxo {
@@ -255,5 +255,9 @@ body .container-narrow .marketing .row-fluid .btn-roxo {
 
 .lead_azul_escuro {
 	color: #08c;
+}
+
+#side-nav .nav.nav-pills.pull-right li{
+	margin-left: 10px;
 }
 
