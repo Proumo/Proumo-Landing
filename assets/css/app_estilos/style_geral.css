@@ -85,15 +85,15 @@ body {
 	background: white;
 	z-index: 99999999;
 }
-.marketing .row-fluid {
-	margin: 10% 0;
+#marketing-publico h1, #marketing-anunciante h1, #marketing-api h1 {
+	padding-top: 5%;
 }
 .marketing h1 {
 	text-align: center;
 	font-family: Cambria, Georgia, serif;
 }
 
-#btn_internacional {
+#btn_internacional,  {
 	float: right;
 	margin: 2px 2px 0 0;
 }
