@@ -1,6 +1,9 @@
 $('#sociais_1 .btn').attr('data-placement', 'top');
 $('#sociais_2 .btn').attr('data-placement', 'bottom');
 
+// Para que todos botões com 'agora' levem ao FaceApp
+$('a.btn').attr('href', 'https://apps.facebook.com/proumos/');
+
 $('#btns_sociais .btn').addClass('tooltiper');
 $('.tooltiper').tooltip({ trigger: "hover" });
 
@@ -20,11 +23,13 @@ $('.lead_roxo .btn').addClass('btn-roxo');
 $('#marketing-publico .btn, #marketing-anunciante .btn, #marketing-api .btn').addClass('span12');
 $('.btn').addClass('btn-large');
 
+/* Coloca os botoes sociais como ativo, porém não fica lgl e nem será útil
 $('#btns_sociais .btn').click(function(){
 	if($(this).hasClass('disabled')) return;
 	else if($(this).hasClass('active')) $(this).removeClass('active');
 	else $(this).addClass('active');
 });
+*/
 
 $('#nav .nav li').click(function(){
 	$('#nav .nav li').removeClass('active');
@@ -54,10 +59,19 @@ $( "li" ).click(function( event ) {
 });
 
 
+/* coloca btn como ATIVO, no btn de internacionalizacao */
 $('.dropdown-menu li').click(function(){
 	var lingua_selecionada = $(this).children('a').html();
 	$('.dropdown-menu li').removeClass('active');
 	$(this).addClass('active');
 
 	$('#btn_inter_content').html(lingua_selecionada+' <span class="caret"></span>');
+});
+
+// Click que leva ao login no facebook
+$('.btn').click(function(event){
+	if($(this).hasClass('disabled')) return;
+
+	event.preventDefault();
+	window.location.href = 'https://apps.facebook.com/proumos/';
 });
