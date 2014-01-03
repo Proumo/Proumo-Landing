@@ -1,8 +1,0 @@
-1- Escolhe a cidade para qual ela vai viajar e aí ela escolhe quais eventos de natal e reveilon vai comparecer
-2- apresentar os eventos em função da quantidade de amigos q vão
-3- Apresentar td e qlqr evento q amigos com maior qntd de amigos em comum confirmou
-
-
-pode colocar cada uma delas como seleçã..por exmplo...ele recebe um aviso de que 3 amigos dele irão para o show X.. e ele é convidado a ver q show é esse e ainda ter a opção de "convidar mais amigos"
-
-lugares, amigos e tipos de festas

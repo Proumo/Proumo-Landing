@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <meta name="google-site-verification" content="iBWQap6p-CEdBPRkGxlLJIt-v7jvCMwt_czEAvNtHbE" />
 
     <!-- Le styles -->
     <!-- Folhas de estilo -->
@@ -70,11 +71,12 @@
       <header id="marketing-produto">
         <div class="jumbotron">
           <div class="row">
-            <img src="assets/img/logo.png">
+            <img src="assets/img/logo.png?v=322">
           </div>
 
           <p class="lead ">
-            <strong>Fique por dentro</strong> do que está rolando com <strong>novas formas de proumoção e interação</strong> em <strong>EVENTOS</strong>!</p>
+            Anuncie. Interaja. Proumova. Compre.
+          <p>
 
           <div id="btns_sociais">
             <div id='sociais_1' class="row-fluid">
@@ -120,7 +122,7 @@
                 <i class="fi-torsos-all sty-pr-icon participante-icon-roxo"></i>
               </center>
               <h3 class=""> Conecte-se </h3>
-              <p class="">Seja notificado dos eventos que <strong>realmente</strong> te <strong>interessam</strong> e nunca mais os perca!<br> <br> <br>Interaja com os eventos via <strong>celular</strong>, <strong>Facebook</strong>, <strong>Twitter</strong>...</p>     
+              <p class="">Seja notificado de todos os eventos que <strong>realmente</strong> te <strong>interessam</strong> e nunca mais os perca!<br> <br> <br>Interaja com os eventos via <strong>celular</strong>, <strong>Facebook</strong>, <strong>Twitter</strong>...</p>     
               <p><a class="btn btn-roxo span12" href="#"><i class="fi-torsos-all icon-white"></i> Conecte-se Agora</a></p>
             </div>
 
@@ -235,7 +237,7 @@
       <hr>
 
       <footer id="copyright">
-        <p>&copy; Proumo 2013 <img src="assets/img/logo.png" style="width:110px;margin: -8px 0 0 15px;"</p>
+        <p>&copy; Proumo 2013 <img src="assets/img/logo.png?322" style="width:34px;margin: -8px 0 0 15px;"</p>
       </footer>
 
     </div> <!-- /container -->
