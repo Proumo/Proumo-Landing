@@ -2,7 +2,7 @@ $('#sociais_1 .btn').attr('data-placement', 'top');
 $('#sociais_2 .btn').attr('data-placement', 'bottom');
 
 // Para que todos botões com 'agora' levem ao FaceApp
-$('a.btn').attr('href', 'https://apps.facebook.com/proumos/');
+$('a.btn').attr('href', 'https://apps.facebook.com/proumoevents/');
 
 $('#btns_sociais .btn').addClass('tooltiper');
 $('.tooltiper').tooltip({ trigger: "hover" });
